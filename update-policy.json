@@ -1,0 +1,6 @@
+{
+  "_comment": "Publisher control-plane for BRASS Cue. Fetched anonymously at startup, fail-open. DORMANT: minSupportedVersion 0.0.0 forces nobody (every shipped version is >= 0.0.0 => consent flow unchanged); enabled is parsed but NOT enforced (scaffold). To arm a forced update, raise minSupportedVersion to the floor below which clients must auto-update at next quit.",
+  "policyVersion": 1,
+  "minSupportedVersion": "0.0.0",
+  "enabled": true
+}
